@@ -258,14 +258,14 @@ border-style: none;
 }
 
 .box-1 {
-  top: 20px;
+  top: 6px;
   background: url(../images/box1.png);
   
 }
 
 .box-2 {
-  top: -142px;
-  left: 381px;
+  top: -149px;
+  left: 380px;
   background: url(../images/box2.jpg);
 }
 
