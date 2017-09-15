@@ -1,0 +1,288 @@
+#stuBio{
+height:88px;
+font-weight: bold;
+color:white;
+text-align: center;
+margin-left: 00px;
+padding-left: 30px;
+margin-top: 0px;
+padding-top: 45px;
+padding-right: 30px;
+}
+
+
+h1,h2{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color:#4aaaa5;
+}
+
+#pageHeader{
+height:120px;
+width:100%;
+background-color: white;
+vertical-align: middle;
+text-align: center;
+margin-top: 10px;
+border-bottom: 2px;
+border-color: #cccccc;
+border-top: 0px;
+border-style: solid;
+border-left: 0px;
+border-right: 0px;
+}
+
+.aboutMe{
+  padding-top:32px;
+  padding-left: 40px;
+  margin-left: 10%;
+}
+header li{
+  float:left;
+}
+nav a{
+  color:#777777;
+  text-decoration: none;
+}
+#headerDiv1 {
+  width: auto;
+  background-color: #4aaaa5;
+  margin-left: 7%;
+  float: left;
+  height: 120px;
+}
+#headerDiv2{
+  width: 500px;
+  float: right;
+  margin-right: 2%;
+  margin-left:0px;
+}
+#image{
+  float:left;
+  margin-left:20px;
+  padding-top:0px;
+  padding-left: 40px;
+  margin-right: 20px;
+
+}
+
+#introPara{
+  margin-left:30%;
+  float:relative;
+  padding-right:40px;
+  position: relative;
+}
+
+hr{
+  border-width: 1.5px;
+  border-color: #DCDCDC;
+  margin:20px 40px 20px 40px;
+
+}
+
+#firstPart{
+  height: auto;
+  width:60%;
+  float:left;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E7E7E7; 
+  margin-top: 20px;
+  border-left: 400px;
+  margin-left: 5%;
+  margin-bottom:10%;
+}
+#secondPart{
+  height:auto;
+  width:30%;
+  float:right;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E7E7E7;
+  margin-right: 30px; 
+  margin-top :20px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+  color:#777777;
+}
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.box-set p {
+    color: #fff;
+    text-align: center;
+    margin-top: 70%;
+    background-color: #4aaaa5;
+
+}
+
+nav ul{
+
+  margin-left:10px;
+  padding:0;
+  list-style:none;
+
+}
+
+nav li {
+
+  margin-left: 10px;
+  display:inline-block;
+  padding-top: 23px;
+  padding-right: 0px;
+}
+span{
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#F2F2F2;
+}
+
+footer {
+    /*position:absolute; 
+    left: 0;
+  bottom: 0;
+    height: 100px;
+    width: 110%;*/
+  clear: both;
+  background-color:#666666;
+  border-top:10px; 
+  border-bottom: 0px;
+  border-left:0px;
+  border-right:0px;
+  border-style: solid;
+  border-color: #4fa9a4;
+  bottom: 0;
+  margin-top:20px;
+}
+
+#footer-div{
+
+  margin-left: 40%;
+}
+
+#footer-div p {
+  color:#FFFFFF;
+  padding:20px 0px;
+
+}
+#secondPart ul{
+margin-left:10px;
+  padding:0;
+  list-style:none;
+
+}
+
+#secondPart li{
+ float:left;
+
+}
+
+
+#secondPart li img{
+
+  height: 50%;
+ width: 45%; 
+}
+
+form {
+  margin-left: 10%;
+}
+form #name,#email,#message{
+  padding-top: 0px;
+}
+
+form input {
+width:95%;
+height:50px;
+border: groove;
+border-color:#bcbcbc;
+margin-bottom:20px;
+}
+form textarea{
+width:95%;
+height:150px;
+border:groove;
+border-color:#bcbcbc;
+margin-bottom:20px;
+}
+
+form #submit{
+
+font-size: 30px;
+color:#fff;
+background-color: #4aaaa5;
+border-style: none;
+}
+.box-set {
+  position: relative;
+  height: 400px;
+  margin-left: 10%
+  
+
+}
+
+.box {
+  /* relative positioning */
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+}
+
+.box-1 {
+  top: 20px;
+  background: url(../images/box1.png);
+  
+}
+
+.box-2 {
+  top: -147px;
+  left: 381px;
+  background: url(../images/box2.jpg);
+}
+
+.box-3 {
+    top: -121px;
+    left: -1px;
+    background: url(../images/box3.jpg);  
+    clear:both;
+}
+
+.box-4 {
+    top: -292px;
+    left: 379px;
+   background: url(../images/box4.jpg);
+}
+
+nav a:hover{
+
+background-color: #d8d4d4;
+}
