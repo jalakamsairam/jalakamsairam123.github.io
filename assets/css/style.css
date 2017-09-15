@@ -264,7 +264,7 @@ border-style: none;
 }
 
 .box-2 {
-  top: -147px;
+  top: -142px;
   left: 381px;
   background: url(../images/box2.jpg);
 }
@@ -277,10 +277,11 @@ border-style: none;
 }
 
 .box-4 {
-    top: -292px;
+    top: -275px;
     left: 379px;
    background: url(../images/box4.jpg);
 }
+
 
 nav a:hover{
 
